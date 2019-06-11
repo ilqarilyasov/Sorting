@@ -2,6 +2,9 @@
 def linear_search(arr, target):
   
   # TO-DO: add missing code
+  for element in arr:
+    if target == element:
+      return element
 
    return -1   # not found
 

@@ -34,8 +34,6 @@ def bubble_sort( arr ):
                 
     return arr
 
-bubble_sort([67, 4, 90, 34, 99, 23, 12])
-
 # STRETCH: implement the Count Sort function below
 def count_sort( arr, maximum=-1 ):
 
