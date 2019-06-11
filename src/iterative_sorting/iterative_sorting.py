@@ -22,12 +22,19 @@ def selection_sort( arr ):
     return arr
 
 
-selection_sort([67, 4, 90, 34, 99, 23, 12])
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
 
+    for i in range(0, len(arr) - 1):
+        for j in range(0, len(arr) - 1):
+            if arr[j] > arr[j + 1]:
+                element = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = element
+                
     return arr
 
+bubble_sort([67, 4, 90, 34, 99, 23, 12])
 
 # STRETCH: implement the Count Sort function below
 def count_sort( arr, maximum=-1 ):
